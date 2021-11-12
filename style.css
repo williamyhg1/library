@@ -29,8 +29,8 @@ form{
    display: flex;
    flex-direction: column;
    background-color: gainsboro;
-   margin: 30px;
-   padding: 50px;
+   margin: 2rem;
+   padding: 3rem;
    gap: 2rem;
   
 }
@@ -39,15 +39,23 @@ form{
     width: 15rem;
     height: 2rem;
     font-size: 1.5rem;
+    border-radius: 8px;
 }
 
 .table {
     background-color: gold
     ;
-    margin: 30px;
-   padding: 50px;
+    margin: 2rem;
+   padding: 3rem;
+   width: 60rem;
+   
+
+   background-color: gainsboro;
 }
 
-td{
-    background-color: blanchedalmond;
+table,th,tr,td{
+    font-size: 1.8rem;
+    border:1px solid black;
+    text-align: center;
+    
 }

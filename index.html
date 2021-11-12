@@ -14,22 +14,22 @@
          <div class="form">
              <form>
                  <div style="font-size: 2rem;">Add New Book</div>
-                <input type="text" class="input" id="title"  placeholder="Title" required>
-                <input type="text" class="input" id="author" placeholder="Author" required>
-                <input type="number" class="input"  id="page" placeholder="Page" required>
+                <input type="text" class="input" id="title"  placeholder="Title">
+                <input type="text" class="input" id="author" placeholder="Author" >
+                <input type="number" class="input"  id="page" placeholder="Page">
 
                 <div>
                 <label for="is-read" style="font-size: 1.5rem;">Have you read it?</label>
                 <input type="checkbox"    placeholder="Pages">
                 </div>
 
-                <input type="submit" class="input"
+                <input type="submit" class="input" id="submit"
                 placeholder="Submit">
 
             </form>
          </div>
          <div class="table">
-             <table style="width: 50rem">
+             <table data-table style="width: 50rem">
                  <tr>
                      <th>Title</th>
                      <th>Author</th>
@@ -38,22 +38,13 @@
                      <th>Delete</th>
                  </tr>
                 <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                   
+                    <td data-title>Harry Potter</td>
+                    <td data-author>J.K. Rowling</td>
+                    <td data-page>350</td>
+                    <td><button data-read>No</button/button></td>
+                    <td><button data-delete>Delete</button></td>
                 </tr>
-
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td>4</td>
-                    <td>5</td>
-                   
-                </tr>
+                
 
              </table>
 

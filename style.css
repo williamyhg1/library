@@ -1,0 +1,53 @@
+
+*, *::after, *::before{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+}
+
+body{
+background-color: rgb(73, 73, 79);
+}
+header{
+    font-size: 50px;
+    text-align: center;
+
+
+}
+
+.container {
+    display: flex;
+}
+
+
+.form {
+    font-size:20px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   background-color: gainsboro;
+   margin: 30px;
+   padding: 50px;
+   gap: 2rem;
+  
+}
+
+.input {
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+.table {
+    background-color: gold
+    ;
+    margin: 30px;
+   padding: 50px;
+}
+
+td{
+    background-color: blanchedalmond;
+}

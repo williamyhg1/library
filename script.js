@@ -58,6 +58,9 @@ const read = document.getElementById("read");
 
 submit.addEventListener("click", () => {
   const newBook = new Book(title, author, page, read);
+  if (page.value < 1) {
+    page.value = "";
+  }
   if (!title.value || !author.value || !page.value) return;
   displayBooks(newBook);
   title.value = "";

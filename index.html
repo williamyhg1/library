@@ -1,56 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library</title>
 
     <script src="script.js" defer>
-        localStorage
+      localStorage
     </script>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header style="font-size: 5rem; color: white;">My Library</header>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header style="font-size: 5rem; color: white">My Library</header>
     <div class="container">
-         <div class="form">
-             <form>
-                 <div style="font-size: 2rem;">Add New Book</div>
-                <input type="text" class="input" id="title"  placeholder="Title" required>
-                <input type="text" class="input" id="author" placeholder="Author" required >
-                <input type="number" class="input"  id="page" placeholder="Page" required>
+      <div class="form">
+        <form>
+          <div style="font-size: 2rem">Add New Book</div>
+          <input
+            type="text"
+            class="input"
+            id="title"
+            placeholder="Title"
+            required
+          />
+          <input
+            type="text"
+            class="input"
+            id="author"
+            placeholder="Author"
+            required
+          />
+          <input
+            type="number"
+            min="1"
+            class="input"
+            id="page"
+            placeholder="Page"
+            required
+          />
 
-                <div>
-                <label for="is-read" style="font-size: 1.5rem;">Have you read it?</label>
-                <input type="checkbox" id="read">
-                </div>
+          <div>
+            <label for="is-read" style="font-size: 1.5rem"
+              >Have you read it?</label
+            >
+            <input type="checkbox" id="read" />
+          </div>
 
-                <input type="submit" class="input" id="submit"
-                >
-
-            </form>
-            <div>
-                
-            </div>
-         </div>
-         <div class="table">
-             <table data-table style="width: 50rem">
-                 <tr>
-                     <th>Title</th>
-                     <th>Author</th>
-                     <th>Pages</th>
-                     <th>Read</th>
-                     <th>Delete</th>
-                 </tr>
-                
-
-             </table>
-
-         </div>
+          <input type="submit" class="input" id="submit" />
+        </form>
+        <div></div>
+      </div>
+      <div class="table">
+        <table data-table style="width: 50rem">
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Pages</th>
+            <th>Read Status</th>
+            <th>Delete</th>
+          </tr>
+        </table>
+      </div>
     </div>
     <footer>
-        Copyright © William Huang 2021
-      </footer>
-</body>
+      Copyright © William Huang 2021<a
+        href="https://github.com/williamyhg1"
+        target="_blank"
+      >
+        <img class="logo" src="img/GitHub-Mark-32px.png" alt=""
+      /></a>
+    </footer>
+  </body>
 </html>

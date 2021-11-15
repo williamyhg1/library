@@ -35,7 +35,7 @@ function displayBooks(book){
 
     const newDataRead = document.createElement('td')
     const readBtn = document.createElement('button')
-    if(book.read.checked){readBtn.textContent = 'Yes'} else {
+    if(book.read){readBtn.textContent = 'Yes'} else {
         readBtn.textContent = 'No'
     } 
     // readBtn.setAttribute(`data-read`,'')

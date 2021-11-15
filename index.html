@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
-    <script src="script.js" defer></script>
+    <script src="script.js" defer>
+        localStorage
+    </script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,11 +22,11 @@
 
                 <div>
                 <label for="is-read" style="font-size: 1.5rem;">Have you read it?</label>
-                <input type="checkbox"    placeholder="Pages">
+                <input type="checkbox" id="read" placeholder="Pages">
                 </div>
 
                 <input type="submit" class="input" id="submit"
-                placeholder="Submit">
+                >
 
             </form>
          </div>
@@ -41,7 +43,7 @@
                     <td data-title>Harry Potter</td>
                     <td data-author>J.K. Rowling</td>
                     <td data-page>350</td>
-                    <td><button data-read>No</button/button></td>
+                    <td><button data-read>No</button></td>
                     <td><button data-delete>Delete</button></td>
                 </tr>
                 

@@ -7,13 +7,16 @@
 body {
   background-color: rgb(73, 73, 79);
 }
+
 header {
   font-size: 50px;
   text-align: center;
+  margin: 1rem;
 }
 
 .container {
   display: flex;
+  margin: 1rem;
 }
 
 .form {
@@ -26,7 +29,7 @@ header {
 form {
   display: flex;
   flex-direction: column;
-  background-color: gainsboro;
+  background-color: rgb(220, 220, 220);
   margin: 2rem;
   padding: 3rem;
   gap: 2rem;
@@ -62,4 +65,10 @@ button {
   font-size: 1.5rem;
   cursor: pointer;
   margin: 0.2rem;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
 }

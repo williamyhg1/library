@@ -50,6 +50,9 @@ function displayBooks(book){
 
     const newDataDelete = document.createElement('td')
     const deleteBtn = document.createElement('button')
+    deleteBtn.addEventListener('click', ()=>{
+        table.removeChild(newrow)
+    })
     deleteBtn.textContent = 'Delete'
     // deleteBtn.setAttribute(`data-delete-${myLibrary.indexOf(book)}`,'')
     newDataDelete.appendChild(deleteBtn)

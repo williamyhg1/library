@@ -16,13 +16,13 @@
          <div class="form">
              <form>
                  <div style="font-size: 2rem;">Add New Book</div>
-                <input type="text" class="input" id="title"  placeholder="Title">
-                <input type="text" class="input" id="author" placeholder="Author" >
-                <input type="number" class="input"  id="page" placeholder="Page">
+                <input type="text" class="input" id="title"  placeholder="Title" required>
+                <input type="text" class="input" id="author" placeholder="Author" required >
+                <input type="number" class="input"  id="page" placeholder="Page" required>
 
                 <div>
                 <label for="is-read" style="font-size: 1.5rem;">Have you read it?</label>
-                <input type="checkbox" id="read" placeholder="Pages">
+                <input type="checkbox" id="read">
                 </div>
 
                 <input type="submit" class="input" id="submit"
@@ -39,13 +39,6 @@
                      <th>Read</th>
                      <th>Delete</th>
                  </tr>
-                <tr>
-                    <td data-title>Harry Potter</td>
-                    <td data-author>J.K. Rowling</td>
-                    <td data-page>350</td>
-                    <td><button data-read>No</button></td>
-                    <td><button data-delete>Delete</button></td>
-                </tr>
                 
 
              </table>

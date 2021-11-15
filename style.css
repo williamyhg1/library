@@ -1,67 +1,65 @@
-
-*, *::after, *::before{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+*,
+*::after,
+*::before {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-body{
-background-color: rgb(73, 73, 79);
+body {
+  background-color: rgb(73, 73, 79);
 }
-header{
-    font-size: 50px;
-    text-align: center;
-
-
+header {
+  font-size: 50px;
+  text-align: center;
 }
 
 .container {
-    display: flex;
+  display: flex;
 }
-
 
 .form {
-    font-size:20px;
-    text-align: center;
-    display: flex;
-    justify-content: flex-start;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
 }
 
-form{
-   display: flex;
-   flex-direction: column;
-   background-color: gainsboro;
-   margin: 2rem;
-   padding: 3rem;
-   gap: 2rem;
-  
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: gainsboro;
+  margin: 2rem;
+  padding: 3rem;
+  gap: 2rem;
 }
 
 .input {
-    width: 15rem;
-    height: 2rem;
-    font-size: 1.5rem;
-    border-radius: 8px;
-    cursor: pointer;
+  width: 15rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
 }
-
 
 .table {
-    background-color: gold
-    ;
-    margin: 2rem;
-   padding: 3rem;
-   width: 60rem;
-   
-
-   background-color: gainsboro;
+  margin: 2rem;
+  padding: 3rem;
+  width: 60rem;
+  background-color: gainsboro;
 }
 
-table,th,tr,td{
-    font-size: 1.8rem;
-    border:1px solid black;
-    text-align: center;
+table,
+tr,
+th,
+td {
+  font-size: 1.8rem;
+  border: 1px solid black;
+  text-align: center;
 }
 
-button{
-    font-size: 1.5rem; 
-    cursor: pointer; 
+
+
+button {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0.2rem;
 }
